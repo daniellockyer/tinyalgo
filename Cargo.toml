@@ -2,6 +2,7 @@
 name = "tinyalgo"
 version = "0.1.0"
 authors = ["Daniel Lockyer <thisisdaniellockyer@gmail.com>"]
+categories = ["no-std"]
 
 [profile.release]
 debug = true
