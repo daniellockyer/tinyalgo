@@ -31,7 +31,15 @@ pub fn decrypt(block: &mut [u32; 2], key: [u32; 4]) -> &mut [u32; 2] {
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn it_works() {
+        let block = &mut [1,2];
+        let key = [1,2,3,4];
+
+        let a = encrypt(block, key);
+        let b = decrypt(a, key);
+        assert_eq!(b, &mut [1,2]);
     }
 }
