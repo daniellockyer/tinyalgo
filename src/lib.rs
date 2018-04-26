@@ -1,5 +1,4 @@
 #![no_std]
-#![feature(alloc_system)] extern crate alloc_system;
 
 const DELTA: u32 = 0x9e3779b9;
 const SUMMATION: u32 = 0xc6ef3720;
