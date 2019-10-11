@@ -7,6 +7,3 @@ authors = ["Daniel Lockyer <thisisdaniellockyer@gmail.com>"]
 repository = "https://github.com/neosilky/tinyalgo"
 homepage = "https://github.com/neosilky/tinyalgo"
 categories = ["no-std"]
-
-[profile.release]
-debug = true
